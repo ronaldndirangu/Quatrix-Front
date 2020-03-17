@@ -1,0 +1,18 @@
+.nav {
+  height: 2rem;
+  display: flex;
+  padding: 1rem;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--theme-primary-color);
+  color: white;
+
+  &-brand {
+    font-size: 2rem;
+    cursor: pointer;
+  }
+  &-links {
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+}
